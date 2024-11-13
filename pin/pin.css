@@ -1,0 +1,148 @@
+:root {
+  --Black: rgba(20, 20, 20, 1);
+  --gold: rgba(204, 175, 126, 1);
+  --white: rgba(244, 241, 235, 1);
+  --lightDark: rgba(26, 26, 26, 1);
+  --midBlack: rgba(20, 20, 20, 0.5);
+
+  --font32: 3.2rem;
+  --font16: 1.6rem;
+  --font30: 3rem;
+  --font20: 2rem;
+  --font18: 1.8rem;
+  --font14: 1.4rem;
+  --font12: 1.2rem;
+  --font8: 8rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+nav p {
+  color: var(--Black);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 8rem;
+}
+nav .icons img {
+  width: 2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 8rem;
+}
+
+.token {
+  width: 1.7rem;
+  height: 2.3rem;
+}
+
+main p {
+  color: var(--Black);
+  font-size: var(--font20);
+  font-weight: 600;
+  text-align: center;
+  width: 32.8rem;
+  height: 3.8rem;
+  line-height: 1.936rem;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 14.4rem;
+  height: 1.2rem;
+}
+.inputs span {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: var(--gold);
+  border-radius: 4.2rem;
+}
+
+.nums {
+  width: 27.5rem;
+  height: 27.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+.nums div {
+  display: flex;
+  width: 25.4rem;
+  height: 2.2rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.nums img {
+  width: 2.383rem;
+  height: 2.383rem;
+}
+.clear {
+  font-size: var(--font18);
+  font-weight: 500;
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Black);
+  border: none;
+  width: 32.8rem;
+  height: 5rem;
+  border-radius: 1rem;
+  color: var(--white);
+  font-size: var(--font16);
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.back {
+  background-color: var(--white);
+  color: var(--Black);
+}
+.white {
+  width: 14rem;
+  background-color: var(--Black);
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  position: fixed;
+  bottom: 0;
+}
