@@ -23,7 +23,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: var(--Black);
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,7 @@ nav {
   z-index: 5;
 }
 nav p {
-  color: var(--white);
+  color: var(--Black);
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -60,68 +60,87 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 4rem;
   margin-top: 8rem;
-  color: var(--white);
 }
 
-.transfer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 32.8rem;
+.token {
+  width: 1.7rem;
+  height: 2.3rem;
 }
-.transfer h2 {
+
+main p {
+  color: var(--Black);
   font-size: var(--font20);
-  /* margin-left: 10rem; */
+  font-weight: 600;
+  text-align: center;
+  width: 32.8rem;
+  height: 3.8rem;
+  line-height: 1.936rem;
 }
 
-.para {
-  font-size: 1.2rem;
-  width: 32.8rem;
-}
-
-.fundify {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 32.8rem;
-  height: 5.2rem;
-  background-color: var(--lightDark);
-  border-radius: 1rem;
-  text-decoration: none;
-  color: var(--white);
-}
-.fundify a {
-  font-size: var(--font16);
-}
-.fundify div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 3.4rem;
-  height: 3.4rem;
-  background-color: var(--Black);
-  border-radius: 0.6rem;
-}
-footer {
-  width: 34.4rem;
+.inputs {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  bottom: 2rem;
+  width: 14.4rem;
+  height: 1.2rem;
 }
-.home {
+.inputs span {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: var(--gold);
+  border-radius: 4.2rem;
+}
+
+.nums {
+  width: 27.5rem;
+  height: 27.3rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 6rem;
+}
+.nums div {
+  display: flex;
+  width: 25.4rem;
+  height: 2.2rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.nums img {
+  width: 2.383rem;
+  height: 2.383rem;
+}
+.clear {
+  font-size: var(--font18);
+  font-weight: 500;
+}
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Black);
+  border: none;
+  width: 32.8rem;
+  height: 5rem;
+  border-radius: 1rem;
   color: var(--white);
+  font-size: var(--font16);
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+.back {
+  background-color: var(--white);
+  color: var(--Black);
 }
 .white {
   width: 14rem;
-  background-color: var(--white);
+  background-color: var(--Black);
   height: 0.5rem;
   border-radius: 0.5rem;
   position: fixed;

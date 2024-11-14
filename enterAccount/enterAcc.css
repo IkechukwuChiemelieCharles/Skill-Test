@@ -88,6 +88,7 @@ input {
   padding-left: 2rem;
   color: var(--white);
 }
+
 .btn {
   height: 80vh;
   display: flex;
@@ -96,7 +97,7 @@ input {
   flex-direction: column;
   padding: 4rem 0;
 }
-a {
+.btn a {
   display: flex;
   align-items: center;
   justify-content: space-around;

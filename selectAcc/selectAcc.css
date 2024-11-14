@@ -76,12 +76,7 @@ main {
   /* margin-left: 10rem; */
 }
 
-.para {
-  font-size: 1.2rem;
-  width: 32.8rem;
-}
-
-.fundify {
+input {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -89,21 +84,67 @@ main {
   height: 5.2rem;
   background-color: var(--lightDark);
   border-radius: 1rem;
-  text-decoration: none;
+  border: none;
+  padding-left: 2rem;
   color: var(--white);
 }
-.fundify a {
-  font-size: var(--font16);
+.btn {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4rem 0;
 }
-.fundify div {
+.btn a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 32.8rem;
+  height: 5.2rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  border: none;
+  padding-left: 2rem;
+  color: var(--Black);
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+.shater {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+.right {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.4rem;
-  height: 3.4rem;
-  background-color: var(--Black);
-  border-radius: 0.6rem;
+  gap: 1rem;
 }
+.right p {
+  font-size: var(--font14);
+}
+
+.right img {
+  width: 1.2rem;
+  height: 1.1632rem;
+}
+
+.line {
+  border: 1px solid var(--lightDark);
+  width: 100%;
+}
+
 footer {
   width: 34.4rem;
   display: flex;
