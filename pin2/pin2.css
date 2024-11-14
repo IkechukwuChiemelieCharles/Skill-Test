@@ -85,8 +85,9 @@ main p {
   align-items: center;
   width: 14.4rem;
   height: 1.2rem;
+  font-size: 2rem;
 }
-.inputs span {
+.input {
   width: 1.2rem;
   height: 1.2rem;
   background-color: var(--gold);
@@ -110,6 +111,7 @@ main p {
   align-items: center;
   font-size: 3rem;
   font-weight: 600;
+  cursor: pointer;
 }
 .nums img {
   width: 2.383rem;
