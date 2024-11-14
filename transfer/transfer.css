@@ -60,73 +60,64 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 1rem;
   margin-top: 8rem;
+  color: var(--white);
 }
 
-.spans {
+.transfer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 11rem;
-  height: 0.3rem;
-  /* border: 1px solid rebeccapurple; */
+  width: 32.8rem;
 }
-.spans span {
-  width: 3rem;
-  height: 0.3rem;
-  background-color: var(--lightDark);
-  border-radius: 0.5rem;
-}
-.spans .active {
-  background-color: var(--gold);
+.transfer h2 {
+  font-size: var(--font20);
+  /* margin-left: 10rem; */
 }
 
-.token {
-  width: 1.7rem;
-  height: 2.3rem;
-}
-.croppedCont {
-  width: 34.121rem;
-}
-.croppedCont img {
-  width: 100%;
-}
-h1 {
-  font-size: var(--font32);
-  color: var(--white);
-  font-weight: 400;
+.para {
+  font-size: 1.2rem;
   width: 32.8rem;
-  height: 7.2rem;
-  text-align: center;
-  line-height: 3.636rem;
 }
 
-main p {
-  color: var(--white);
-  font-size: var(--font16);
-  text-align: center;
-  width: 32.8rem;
-  height: 3.8rem;
-  line-height: 1.936rem;
-}
-a {
+.fundify {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: var(--white);
-  border: none;
+  justify-content: space-around;
   width: 32.8rem;
-  height: 5rem;
+  height: 5.2rem;
+  border: 1px solid blue;
+  background-color: var(--lightDark);
   border-radius: 1rem;
-  color: var(--Black);
-  font-size: var(--font16);
-  font-weight: 600;
-  text-align: center;
   text-decoration: none;
+  color: var(--white);
 }
-.back {
+.fundify a {
+  font-size: var(--font16);
+}
+.fundify div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
   background-color: var(--Black);
+  border-radius: 0.6rem;
+}
+footer {
+  width: 34.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   color: var(--white);
 }
 .white {

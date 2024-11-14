@@ -60,73 +60,70 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 1rem;
   margin-top: 8rem;
+  color: var(--white);
 }
 
-.spans {
+.transfer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 11rem;
-  height: 0.3rem;
-  /* border: 1px solid rebeccapurple; */
+  width: 32.8rem;
 }
-.spans span {
-  width: 3rem;
-  height: 0.3rem;
+.transfer h2 {
+  font-size: var(--font20);
+  /* margin-left: 10rem; */
+}
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 32.8rem;
+  height: 5.2rem;
   background-color: var(--lightDark);
-  border-radius: 0.5rem;
-}
-.spans .active {
-  background-color: var(--gold);
-}
-
-.token {
-  width: 1.7rem;
-  height: 2.3rem;
-}
-.croppedCont {
-  width: 34.121rem;
-}
-.croppedCont img {
-  width: 100%;
-}
-h1 {
-  font-size: var(--font32);
+  border-radius: 1rem;
+  border: none;
+  padding-left: 2rem;
   color: var(--white);
-  font-weight: 400;
-  width: 32.8rem;
-  height: 7.2rem;
-  text-align: center;
-  line-height: 3.636rem;
 }
-
-main p {
-  color: var(--white);
-  font-size: var(--font16);
-  text-align: center;
-  width: 32.8rem;
-  height: 3.8rem;
-  line-height: 1.936rem;
+.btn {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4rem 0;
 }
 a {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: var(--white);
-  border: none;
+  justify-content: space-around;
   width: 32.8rem;
-  height: 5rem;
+  height: 5.2rem;
+  background-color: var(--white);
   border-radius: 1rem;
+  border: none;
+  padding-left: 2rem;
   color: var(--Black);
-  font-size: var(--font16);
-  font-weight: 600;
-  text-align: center;
   text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
-.back {
-  background-color: var(--Black);
+footer {
+  width: 34.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
   color: var(--white);
 }
 .white {
